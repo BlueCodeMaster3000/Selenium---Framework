@@ -1,0 +1,20 @@
+2022-07-18 23:50:56,550 :INFO :pytestsDemo.test_logging :Information statement
+2022-07-18 23:50:56,550 :WARNING :pytestsDemo.test_logging :Something is in warning mode
+2022-07-18 23:50:56,550 :ERROR :pytestsDemo.test_logging :A major error has occurred
+2022-07-18 23:50:56,550 :CRITICAL :pytestsDemo.test_logging :Critical issue
+2022-07-19 00:04:00,344 :INFO :pytestsDemo.BaseClass :Kacper
+2022-07-19 00:04:00,344 :INFO :pytestsDemo.BaseClass :rahulshettyacademy.com
+2022-07-19 00:06:40,632 :INFO :test_ditProfile :Kacper
+2022-07-19 00:06:40,632 :INFO :test_ditProfile :rahulshettyacademy.com
+2022-07-19 00:12:12,230 :INFO :test_editProfile :Kacper
+2022-07-19 00:12:12,230 :INFO :test_editProfile :rahulshettyacademy.com
+2022-07-19 00:12:12,230 :INFO :pytestsDemo.test_logging :Information statement
+2022-07-19 00:12:12,230 :WARNING :pytestsDemo.test_logging :Something is in warning mode
+2022-07-19 00:12:12,230 :ERROR :pytestsDemo.test_logging :A major error has occurred
+2022-07-19 00:12:12,230 :CRITICAL :pytestsDemo.test_logging :Critical issue
+2022-07-19 00:15:03,765 :INFO :test_editProfile :Kacper
+2022-07-19 00:15:03,766 :INFO :test_editProfile :rahulshettyacademy.com
+2022-07-19 00:15:03,766 :INFO :pytestsDemo.test_logging :Information statement
+2022-07-19 00:15:03,766 :WARNING :pytestsDemo.test_logging :Something is in warning mode
+2022-07-19 00:15:03,766 :ERROR :pytestsDemo.test_logging :A major error has occurred
+2022-07-19 00:15:03,766 :CRITICAL :pytestsDemo.test_logging :Critical issue
