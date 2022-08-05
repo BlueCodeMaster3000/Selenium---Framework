@@ -2,8 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
+from pathlib import Path
 
-service_obj = Service("/Users/kacperbiegajlo/Desktop/chromedriver/chromedriver")
+service_obj = Service(Path("./chromedriver/chromedriver").resolve())
 driver = webdriver.Chrome(service=service_obj)
 
 driver.get("https://rahulshettyacademy.com/angularpractice/")

@@ -1,7 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from pathlib import Path
 
-service_obj = Service("/Users/kacperbiegajlo/Desktop/chromedriver/chromedriver")
+# relative path to webdriver placed inside project dir
+service_obj = Service(Path("./chromedriver/chromedriver").resolve())
 driver = webdriver.Chrome(service=service_obj)
 driver.fullscreen_window()
 # driver.maximize_window() also works
